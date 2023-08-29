@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2017-2018 Contributors to the Eclipse Foundation
+// Copyright (c) 2017-2022 Contributors to the Eclipse Foundation
 //
 // See the NOTICE file(s) distributed with this work for additional
 // information regarding copyright ownership.
@@ -40,7 +40,7 @@ This repository also houses the link:https://github.com/eclipse/microprofile/blo
     <dependency>
         <groupId>org.eclipse.microprofile</groupId>
         <artifactId>microprofile</artifactId>
-        <version>5.0</version>
+        <version>6.0</version>
         <type>pom</type>
         <scope>provided</scope>
     </dependency>
@@ -55,7 +55,7 @@ This repository also houses the link:https://github.com/eclipse/microprofile/blo
         <dependency>
             <groupId>org.eclipse.microprofile</groupId>
             <artifactId>microprofile</artifactId>
-            <version>5.0</version>
+            <version>6.0</version>
             <scope>import</scope>
             <type>pom</type>
         </dependency>
@@ -88,13 +88,13 @@ Several Eclipse github repos exist for the development of MicroProfile features.
 
 link:https://github.com/eclipse/microprofile[MicroProfile] -- Top-level repo used for the umbrella MicroProfile specifications and other MicroProfile-related information (this repo) +
 link:https://github.com/eclipse/microprofile-config[MicroProfile Config] -- MicroProfile application configuration +
-link:https://github.com/eclipse/microprofile-health[MicroProfile Health Check] -- MicroProfile simple health check +
+link:https://github.com/eclipse/microprofile-health[MicroProfile Health] -- MicroProfile simple health check +
 link:https://github.com/eclipse/microprofile-metrics[MicroProfile Metrics] -- MicroProfile metrics +
 link:https://github.com/eclipse/microprofile-fault-tolerance[MicroProfile Fault Tolerance] -- MicroProfile fault tolerance +
 link:https://github.com/eclipse/microprofile-rest-client[MicroProfile Rest Client] -- MicroProfile type-safe REST client +
-link:https://github.com/eclipse/microprofile-open-api[MicroProfile Open API] -- MicroProfile OpenAPI and annotations +
+link:https://github.com/eclipse/microprofile-open-api[MicroProfile OpenAPI] -- MicroProfile OpenAPI and annotations +
 link:https://github.com/eclipse/microprofile-jwt-auth[MicroProfile JWT Authentication] -- MicroProfile JWT authentication propagation +
-link:https://github.com/eclipse/microprofile-opentracing[MicroProfile OpenTracing] -- MicroProfile OpenTracing integration +
+link:https://github.com/eclipse/microprofile-telemetry[MicroProfile Telemetry] -- MicroProfile Telemetry integration +
 link:https://github.com/eclipse/microprofile-graphql[MicroProfile GraphQL] -- Microprofile GraphQL Specification +
 link:https://github.com/eclipse/microprofile-conference[MicroProfile Conference App] -- "Architectural Application" to demonstrate MicroProfile on a variety of vendors
 
@@ -102,8 +102,8 @@ A complete list of MicroProfile-related repositories within the Eclipse github o
 
 Some of the repositories are hosted under the link:https://github.com/microprofile[MicroProfile github organization], including the following repos:
 
-link:https://github.com/microprofile/microprofile-blog[MicroProfile.io blogs] -- Easy mechanism for updating the entries on the link:http://microprofile.io/blog[MicroProfile blog site] +
-link:https://github.com/microprofile/microprofile-site[MicroProfile.io site] -- source code of the application that powers the link:http://microprofile.io[microprofile.io] site +
+link:https://github.com/microprofile/microprofile-blog[MicroProfile.io blogs] -- Easy mechanism for updating the entries on the link:https://microprofile.io/blog[MicroProfile blog site] +
+link:https://github.com/microprofile/microprofile-site[MicroProfile.io site] -- source code of the application that powers the link:https://microprofile.io[microprofile.io] site +
 
 === MicroProfile and MicroProfile.io
 The MicroProfile community has two portals to information.  The main site is the link:https://projects.eclipse.org/projects/technology.microprofile[MicroProfile project].

@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2017-2017 Contributors to the Eclipse Foundation
+// Copyright (c) 2017-2022 Contributors to the Eclipse Foundation
 //
 // See the NOTICE file(s) distributed with this work for additional
 // information regarding copyright ownership.
@@ -17,6 +17,12 @@
 // limitations under the License.
 //
 // SPDX-License-Identifier: Apache-2.0
+
+[sidebar]
+//.Languages
+--
+English, https://github.com/eclipse/microprofile/blob/master/CONTRIBUTING_es.adoc[Español]
+--
 
     Founded: MicroProfile was launched on June 2016 by a group of companies and individuals. Check Tracing on the MP google forum for more details. 
 
